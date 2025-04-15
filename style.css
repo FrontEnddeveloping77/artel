@@ -34,7 +34,7 @@
     display: flex;
     color: white;
     text-align: center;
-    margin-right: 800px;
+    margin-right: 600px;
 }
 
 .first-windows nav .text p{
@@ -50,6 +50,41 @@
 .first-windows nav .everything{
     padding-top: 12px;
     color: white;
+    display: flex;
+    gap: 20px;
+}
+
+.first-windows nav .everything .divs{
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    background: none;
+    border: 1px solid white;
+    padding-right: 20px;
+    padding-top: 10px;
+    color: white;
+    margin-left: 15px;
+    display: flex;
+    position: relative;
+}
+
+.first-windows nav .everything  .divs >p{
+    text-align: right;
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+}
+
+.first-windows nav .everything .divs .div{
+    background: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 32px;
+    color: black;
+    position: absolute;
+    top: 0;
+    padding-left: 15px;
+    padding-top: 10px;
 }
 
 .first-windows nav .everything .tel-num:hover{
