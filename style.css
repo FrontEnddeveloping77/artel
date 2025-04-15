@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.first-windows{
+    width: 100%;
+    height: 100vh;
+    background: url(https://artelelectronics.com/_next/image?url=%2Fimages%2Fmainhero-new-assets%2Fslider-1-desktop.webp&w=1920&q=100) no-repeat center/cover;
+}
+
+.first-windows nav{
+    width: 100%;
+    height: 50px;
+    background: none;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 25px;
+    display: flex;
+}
+
+.first-windows nav img{
+    width: 90px;
+    height: 45px;
+    margin-right: 30px;
+    padding-right: 20px;
+    border-right: 1px solid white;
+}
+
+.first-windows nav .text{
+    display: flex;
+    color: white;
+    text-align: center;
+    margin-right: 800px;
+}
+
+.first-windows nav .text p{
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.first-windows nav .text .p{
+    width: 100px;
+    margin-top: 5px;
+}
+
+.first-windows nav .everything{
+    padding-top: 12px;
+    color: white;
+}
+
+.first-windows nav .everything .tel-num:hover{
+    color: gray;
+    cursor: pointer;
+}
