@@ -9,6 +9,7 @@
     width: 100%;
     height: 100vh;
     background: url(https://artelelectronics.com/_next/image?url=%2Fimages%2Fmainhero-new-assets%2Fslider-1-desktop.webp&w=1920&q=100) no-repeat center/cover;
+    margin-bottom: 10px;
 }
 
 .first-windows nav{
@@ -54,4 +55,281 @@
 .first-windows nav .everything .tel-num:hover{
     color: gray;
     cursor: pointer;
+}
+
+.first-windows .img{
+    width: 410px;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.first-windows .img img{
+    width: 400px;
+    height: 200px;
+}
+
+.first-windows .img .first-btn{
+    width: 125px;
+    height: 55px;
+    background: gray;
+    border-radius: 32px;
+    border: none;
+    margin-right: 20px;
+    margin-top: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+.first-windows .img .second-btn{
+    width: 195px;
+    height: 55px;
+    background: white;
+    color: green;
+    border-radius: 32px;
+    border: none;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.second-windows{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    padding-top: 50px;
+    padding-left: 100px;
+    margin-bottom: 10px;
+}
+
+.second-windows h3{
+    width: 900px;
+    font-size: 34px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.second-windows button{
+    width: 350px;
+    height: 40px;
+    background: green;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 32px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.second-windows h4{
+    width: 700px;
+    font-size: 20px;
+    color: rgb(67, 67, 67);
+    margin-bottom: 25px;
+}
+
+.second-windows img{
+    width: 1340px;
+    height: 280px;
+}
+
+.second-windows h2{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.third-windows{
+    width: 100%;
+    height: 100vh;
+    background: url(https://artelelectronics.com/_next/image?url=%2Fvideos%2Fproduct-animation%2Fbg.png&w=1920&q=75) no-repeat center/cover;
+    align-items: center;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+.third-windows .gas-logos{
+    width: 1100px;
+    margin: 50px auto;
+    display: flex;
+    gap: 25px;
+}
+
+.third-windows .buttons{
+    width: 500px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+
+.buttons .btn1{
+    width: 200px;
+    height: 55px;
+    background: rgb(65, 65, 65);
+    color: white;
+    font-size: 20px;
+    border-radius: 32px;
+    border: none;
+}
+
+.buttons .btn2{
+    width: 150px;
+    height: 55px;
+    background: white;
+    color: green;
+    font-size: 20px;
+    border-radius: 32px;
+    border: none;
+}
+
+.fourth-windows{
+    width: 100%;
+    height: 100vh;
+    background: url(https://artelelectronics.com/_next/image?url=%2Fvideos%2Frefrigirator-animation%2Fnew%2Fmain.webp&w=1920&q=75) no-repeat center/cover;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.fourth-windows .right{
+    width: 500px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.fourth-windows .buttons{
+    height: 60px;
+    display: flex;
+    gap: 25px;
+    margin: auto;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+main{
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+main .buyumlar{
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main .buyumlar .buyum{
+    width: 425px;
+    height: 250px;
+    color: white;
+    text-align:left;
+    padding-top: 200px;
+    border-radius: 24px;
+}
+
+main .buyumlar .buyum1{
+    background: url(https://artelelectronics.com/_next/image?url=https%3A%2F%2Fartelelectronics-new.s3.amazonaws.com%2Fkitchen-cat.2024-09-16.10-55-44.webp&w=1080&q=100) no-repeat center/cover;
+}
+
+main .buyumlar .buyum2{
+    background: url(https://artelelectronics.com/_next/image?url=https%3A%2F%2Fartelelectronics-new.s3.amazonaws.com%2Flivingroom-1920.2024-10-06.12-46-09.webp&w=3840&q=100) no-repeat center/cover;
+}
+
+main .buyumlar .buyum3{
+    background: url(https://artelelectronics.com/_next/image?url=https%3A%2F%2Fartelelectronics-new.s3.amazonaws.com%2Flaundry-1920.2024-10-06.12-48-39.webp&w=3840&q=100) no-repeat center/cover;
+}
+
+main .tuzatish{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main .tuzatish .tuzat{
+    width: 425px;
+    height: 250px;
+    background: linear-gradient(135deg,black, rgba(11, 93, 11, 0.808));
+    border-radius: 32px;
+    text-align: center  ;
+    position: relative;
+    color: white;
+    padding-top: 30px;
+}
+
+main .tuzatish .tuzat button{
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    border-radius: 32px;
+}
+
+main .tuzatish .tuzat button:hover{
+    background: rgb(0, 80, 0);
+    color: white;
+    border: none;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    color: white;
+}
+
+footer .img{
+    width: 300px;
+    height: 70px;
+    margin-top: 50px;
+}
+
+.bir{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.bir .bir-qator ul{
+    list-style: none;
+    width: 200px;
+    color: white;
+}
+
+.bir .bir-qator ul li{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.bir .bir-qator ul li:hover{
+    color: green;
+    transition: .5s;
+}
+
+.bir .birr p{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.bir .birr .hover:hover{
+    color: green;
+    transition: .5s;
+}
+
+.birr{
+    margin-left: 100px;
 }
