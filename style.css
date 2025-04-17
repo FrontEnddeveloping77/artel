@@ -386,3 +386,17 @@ footer .img{
 .birr{
     margin-left: 100px;
 }
+
+.fof .logos{
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.fof .logos i{
+    color: white;
+    font-size: 20px;
+}
+
+.fof .logos i:hover{}
