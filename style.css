@@ -115,6 +115,10 @@
     font-size: 18px;
 }
 
+.first-windows .img .first-btn:hover{
+    background: rgb(180, 180, 180);
+}
+
 .first-windows .img .second-btn{
     width: 195px;
     height: 55px;
@@ -124,6 +128,11 @@
     border: none;
     margin-top: 50px;
     font-size: 18px;
+}
+
+.first-windows .img .second-btn:hover{
+    background: linear-gradient(90deg,black, green);
+    color: white;
 }
 
 .second-windows{
@@ -153,6 +162,11 @@
     position: absolute;
     margin-top: 30px;
     margin-left: 100px;
+}
+
+.second-windows button:hover{
+    background: linear-gradient(90deg,black, green);
+
 }
 
 .second-windows h4{
@@ -205,6 +219,10 @@
     font-size: 20px;
     border-radius: 32px;
     border: none;
+}
+
+.buttons .btn1{
+    background: rgb(172, 172, 172);
 }
 
 .buttons .btn2{
