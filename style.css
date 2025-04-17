@@ -399,4 +399,12 @@ footer .img{
     font-size: 20px;
 }
 
-.fof .logos i:hover{}
+.bat:hover{
+    background-color: green;
+    color: white;
+}
+
+.batt:hover{
+    background: rgb(173, 173, 173);
+    color: black;
+}
